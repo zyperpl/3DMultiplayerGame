@@ -1,0 +1,79 @@
+static
+mdl models/propane_tank.obj
+tex models/propane_tank_red.png 1 1
+pos 0.0 0.0 0.0
+rot 0.0 0.0 0.0
+scl 0.1 0.1 0.1
+
+static
+mdl models/propane_tank.obj
+tex models/propane_tank_red.png 1 1
+pos 5.0 -0.4 4.0
+rot 0.0 0.1 0.0
+scl 1.0 1.0 1.0
+
+static
+mdl models/propane_tank.obj
+tex models/propane_tank_red.png 1 1
+pos -5.0 -0.4 -4.0
+rot 0.0 2.1 0.0
+scl 1.0 1.0 1.0
+
+static
+mdl models/floor_hd.obj
+tex models/floor.png 100.0 100.0
+pos 1.2 -61.6 1.0
+rot 0.0 0.0 0.0
+scl 100.0 100.0 100.0
+
+#https://opengameart.org/content/low-poly-trees-stumps-branches
+static
+mdl models/trees_bark_002.obj
+tex models/textures/trees_bark_002_col.png 1 1
+pos 5.0 -1.8 10.0
+rot 0.0 3.0 0.0
+scl 1.0 1.0 1.0
+
+static
+mdl models/trees_leaves_003.obj
+tex models/textures/trees_leaves_003_col.png 1 1
+pos 5.0 -0.6 10.0
+rot 0.0 3.0 0.0
+scl 1.0 1.0 1.0
+
+static
+mdl models/trees_bark_002.obj
+tex models/textures/trees_bark_002_col.png 1 1
+pos 25.0 -1.8 10.0
+rot 0.0 3.0 0.0
+scl 1.0 1.0 1.0
+
+static
+mdl models/trees_leaves_003.obj
+tex models/textures/trees_leaves_003_col.png 1 1
+pos 25.0 -0.6 10.0
+rot 0.0 3.0 0.0
+scl 1.0 1.0 1.0
+
+player
+mdl models/vehicle.obj
+tex models/propane_tank_red.png 0.4 0.4
+pos 20.0 -2 0.0
+rot 0 0 0
+scl 2.6 2.6 2.6
+
+light
+col 1.0 1.0 1.0
+pwr 500
+pos 15.0 25.0 10.0
+
+light
+col 0.1 0.0 0.0
+pos 10.0 00.0 20.0
+
+light
+col 0.0 0.3 0.1
+pos -40.0 0.0 -50.0
+
+camera
+pos 0.0 20.0 0.0

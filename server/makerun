@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir obj
+make clean
+make -j4 || exit
+printf "\n\n\n\n"
+./server $1

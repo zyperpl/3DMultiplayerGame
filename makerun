@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir -p cmake
+mkdir -p build
+cd cmake
+cmake .. && make -j4 || exit
+printf "\n\n\n\n"
+cd ../build
+./3DMultiplayerShooter
+cd ..
