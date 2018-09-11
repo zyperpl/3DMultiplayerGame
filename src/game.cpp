@@ -205,8 +205,8 @@ void Game::drawEntities()
     view->renderFramebuffer(0);
 
     // draw shadowmap
-    glViewport(0, 0, 1920/5, 1080/4);
-    view->renderFramebuffer(1);
+    //glViewport(0, 0, 1920/5, 1080/4);
+    //view->renderFramebuffer(1);
 
     view->swapWindowBuffers();
   }
